@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apuntes | UAB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand-row">
+          <a class="brand" href="#" aria-label="Inicio de Apuntes CAV"><span class="brand-mark">A</span><span>apuntes<span class="brand-accent">.cav</span></span></a>
+          <button class="icon-button mobile-only" id="close-sidebar" aria-label="Cerrar menú"><i data-lucide="x"></i></button>
+        </div>
+
+        <div class="degree-card">
+          <img src="assets/uab-facultat.jpg" alt="Facultat de Ciències de la Comunicació de la UAB" />
+          <div><strong>Comunicació Audiovisual</strong><span>UAB · 1r curs · 2026-27</span></div>
+        </div>
+
+        <div class="side-actions">
+          <button class="outline-button" id="new-subject"><i data-lucide="folder-plus"></i>Asignatura</button>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Asignaturas">
+          <div class="nav-label"><span>PLAN DOCENTE</span><button class="semester-switch" id="semester-switch" aria-label="Cambiar semestre">S1 <i data-lucide="chevron-down"></i></button></div>
+          <div id="subject-list"></div>
+        </nav>
+
+        <div class="sidebar-footer">
+          <button class="nav-link" id="all-notes"><i data-lucide="files"></i><span>Todos los apuntes</span><b id="notes-total">0</b></button>
+          <button class="nav-link" id="study-view"><i data-lucide="brain"></i><span>Repaso</span><b id="review-total">0</b></button>
+          <p>Plan 1433 · Datos guardados en este dispositivo</p>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <button class="icon-button menu-button" id="open-sidebar" aria-label="Abrir menú"><i data-lucide="menu"></i></button>
+          <div class="breadcrumbs" id="breadcrumbs">Primer curso <i data-lucide="chevron-right"></i> <strong>Vista general</strong></div>
+          <label class="search-box" for="search-input"><i data-lucide="search"></i><input id="search-input" autocomplete="off" placeholder="Busca una palabra o frase en todos tus apuntes" /><kbd>⌘ K</kbd></label>
+          <button class="icon-button" id="theme-toggle" aria-label="Cambiar tema"><i data-lucide="moon"></i></button>
+        </header>
+
+        <section class="content" id="content"></section>
+      </main>
+    </div>
+
+    <dialog id="subject-dialog" class="dialog compact-dialog">
+      <form method="dialog" id="subject-form">
+        <div class="dialog-heading"><div><p class="eyebrow">PLAN DOCENTE</p><h2>Nueva asignatura</h2></div><button class="icon-button" value="cancel" formnovalidate aria-label="Cerrar"><i data-lucide="x"></i></button></div>
+        <label>Nombre<input id="subject-name" required placeholder="Ej. Fotografía" /></label>
+        <div class="form-grid"><label>Semestre<select id="subject-semester"><option value="S1">1er semestre</option><option value="S2">2º semestre</option><option value="ANUAL">Anual</option></select></label><label>Color<select id="subject-color"><option value="coral">Coral</option><option value="teal">Turquesa</option><option value="yellow">Amarillo</option><option value="blue">Azul</option></select></label></div>
+        <label>Temas <span class="hint">uno por línea</span><textarea id="subject-topics" placeholder="Tema 1 · Introducción&#10;Tema 2 · Conceptos clave"></textarea></label>
+        <div class="dialog-actions"><button class="outline-button" value="cancel" formnovalidate>Cancelar</button><button class="primary-button" value="default">Crear asignatura</button></div>
+      </form>
+    </dialog>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
