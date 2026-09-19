@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de estructura de la comunicacion">
+  <rect width="1200" height="675" fill="#eef2ee"/>
+  <rect x="146" y="112" width="908" height="451" rx="24" fill="#111"/>
+  <rect x="202" y="168" width="796" height="339" rx="8" fill="#f7f7f3"/>
+  <g fill="#111">
+    <rect x="278" y="236" width="176" height="92" rx="12"/>
+    <rect x="512" y="236" width="176" height="92" rx="12"/>
+    <rect x="746" y="236" width="176" height="92" rx="12"/>
+    <rect x="396" y="392" width="176" height="92" rx="12"/>
+    <rect x="630" y="392" width="176" height="92" rx="12"/>
+  </g>
+</svg>

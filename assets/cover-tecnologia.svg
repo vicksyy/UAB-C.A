@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de tecnologia audiovisual">
+  <rect width="1200" height="675" fill="#eef3f1"/>
+  <rect x="160" y="105" width="880" height="465" rx="26" fill="#111"/>
+  <rect x="198" y="143" width="804" height="389" rx="10" fill="#f7f7f3"/>
+  <g fill="none" stroke="#111" stroke-width="14" stroke-linecap="round">
+    <path d="M288 438h120l70-205 94 286 76-184 55 103h209"/>
+    <path d="M302 226h596"/>
+    <path d="M302 286h176"/>
+  </g>
+  <circle cx="899" cy="286" r="34" fill="#111"/>
+</svg>

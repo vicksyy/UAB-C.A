@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de historia de la comunicacion">
+  <rect width="1200" height="675" fill="#f3f0e8"/>
+  <rect x="180" y="116" width="840" height="443" rx="14" fill="#111"/>
+  <rect x="224" y="158" width="752" height="359" fill="#f7f7f3"/>
+  <path d="M312 452V244M450 452V202M588 452V278M726 452V226M864 452V318" stroke="#111" stroke-width="24" stroke-linecap="round"/>
+  <path d="M276 452h650" stroke="#111" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="450" cy="202" r="28" fill="#111"/>
+</svg>

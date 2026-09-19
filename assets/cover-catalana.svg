@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de lengua catalana">
+  <rect width="1200" height="675" fill="#f4f1e6"/>
+  <rect x="170" y="116" width="860" height="443" rx="24" fill="#111"/>
+  <rect x="224" y="172" width="752" height="331" rx="10" fill="#f7f7f3"/>
+  <path d="M310 408c95-185 167-185 216 0M345 342h146M626 246v162M626 246h142c44 0 77 35 77 81s-33 81-77 81H626" fill="none" stroke="#111" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

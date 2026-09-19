@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de lenguajes comunicativos">
+  <rect width="1200" height="675" fill="#f4eeee"/>
+  <rect x="128" y="118" width="944" height="439" rx="20" fill="#111"/>
+  <rect x="174" y="164" width="852" height="347" fill="#f7f7f3"/>
+  <path d="M282 254h372M282 329h526M282 404h305" stroke="#111" stroke-width="24" stroke-linecap="round"/>
+  <rect x="764" y="234" width="154" height="154" rx="18" fill="#111"/>
+  <path d="M804 348l38-72 42 72z" fill="#f7f7f3"/>
+</svg>

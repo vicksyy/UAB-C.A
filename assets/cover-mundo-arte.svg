@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de mundo y arte contemporaneo">
+  <rect width="1200" height="675" fill="#f1eef4"/>
+  <rect x="128" y="120" width="944" height="435" rx="22" fill="#111"/>
+  <rect x="176" y="168" width="848" height="339" fill="#f7f7f3"/>
+  <circle cx="392" cy="334" r="112" fill="#111"/>
+  <rect x="562" y="238" width="176" height="176" rx="16" fill="#111"/>
+  <path d="M804 430l82-184 86 184z" fill="#111"/>
+</svg>
