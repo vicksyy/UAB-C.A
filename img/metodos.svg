@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Portada abstracta de metodos de investigacion">
+  <rect width="1200" height="675" fill="#eff0f4"/>
+  <rect x="145" y="115" width="910" height="445" rx="24" fill="#111"/>
+  <rect x="190" y="160" width="820" height="355" rx="8" fill="#f7f7f3"/>
+  <g fill="none" stroke="#111" stroke-width="16" stroke-linecap="round">
+    <circle cx="390" cy="330" r="92"/>
+    <path d="M458 398l116 116"/>
+    <path d="M670 247h202M670 331h202M670 415h126"/>
+  </g>
+</svg>

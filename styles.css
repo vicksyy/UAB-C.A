@@ -127,6 +127,38 @@
   box-shadow:inset 0 3px var(--card-color-dark, var(--card-color));
 }
 
+.subject-card {
+  padding:0;
+}
+
+.subject-card:before {
+  z-index:2;
+}
+
+.subject-cover {
+  width:100%;
+  height:105px;
+  flex:0 0 105px;
+  object-fit:cover;
+  background:#f3f3f3;
+}
+
+.subject-card-body {
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  gap:4px;
+  padding:14px 16px 16px;
+}
+
+.subject-card-body footer {
+  margin-top:auto;
+}
+
+.dark .subject-cover {
+  background:#222;
+}
+
 /* Writing surface */
 .writing-view {
   max-width:1180px;
